@@ -5,7 +5,7 @@ export const Roadmap: React.FC = () => {
   const steps = [
     {
       quarter: "Q4 2025",
-      status: "In Public Beta",
+      status: "Pilot testing phase",
       statusStyle: "text-green-400 bg-green-500/10 border-green-500/20 shadow-[0_0_15px_rgba(34,197,94,0.2)]",
       title: "Advanced Chat Agents",
       description: "The foundation of Varia. Context-aware text agents capable of deep reasoning, RAG (Retrieval Augmented Generation) over business docs, and instant deployment.",
@@ -46,7 +46,7 @@ export const Roadmap: React.FC = () => {
   ];
 
   return (
-    <section className="py-32 bg-neutral-950 border-t border-white/5 relative overflow-hidden">
+    <section id="roadmap" className="py-32 bg-neutral-950 border-t border-white/5 relative overflow-hidden">
         {/* Background Atmosphere */}
         <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-brand-900/10 to-transparent pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-black to-transparent pointer-events-none" />

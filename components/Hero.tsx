@@ -54,13 +54,17 @@ export const Hero: React.FC = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-          <Button variant="primary" showArrow className="w-full sm:w-auto h-12 px-8 text-base shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:shadow-[0_0_40px_rgba(255,255,255,0.2)]">
-            Create Your AI Agent
-          </Button>
-          <Button variant="secondary" className="w-full sm:w-auto h-12 px-8 text-base group bg-[#0a0a0a]/50 backdrop-blur-sm hover:bg-[#1a1a1a]">
-            <PlayCircle className="w-4 h-4 mr-2 group-hover:text-brand-500 transition-colors" />
-            See How It Works
-          </Button>
+          <a href="#contact">
+            <Button variant="primary" showArrow className="w-full sm:w-auto h-12 px-8 text-base shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:shadow-[0_0_40px_rgba(255,255,255,0.2)]">
+              Request Early Access
+            </Button>
+          </a>
+          <a href="#how-it-works">
+            <Button variant="secondary" className="w-full sm:w-auto h-12 px-8 text-base group bg-[#0a0a0a]/50 backdrop-blur-sm hover:bg-[#1a1a1a]">
+              <PlayCircle className="w-4 h-4 mr-2 group-hover:text-brand-500 transition-colors" />
+              See How It Works
+            </Button>
+          </a>
         </div>
       </div>
 

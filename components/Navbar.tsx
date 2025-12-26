@@ -35,12 +35,13 @@ export const Navbar: React.FC = () => {
           <a href="#features" className="text-sm text-neutral-400 hover:text-white transition-colors">Features</a>
           <a href="#how-it-works" className="text-sm text-neutral-400 hover:text-white transition-colors">How it Works</a>
           <a href="#use-cases" className="text-sm text-neutral-400 hover:text-white transition-colors">Use Cases</a>
-          <a href="#pricing" className="text-sm text-neutral-400 hover:text-white transition-colors">Pricing</a>
+          <a href="#roadmap" className="text-sm text-neutral-400 hover:text-white transition-colors">Roadmap</a>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <a href="#" className="text-sm font-medium text-neutral-300 hover:text-white">Log in</a>
-          <Button variant="primary" className="py-2 px-4 h-9 text-xs">Start Building</Button>
+          <a href="#contact">
+            <Button variant="primary" className="py-2 px-4 h-9 text-xs">Request Access</Button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -58,7 +59,7 @@ export const Navbar: React.FC = () => {
            <a href="#features" className="text-sm text-neutral-400">Features</a>
           <a href="#how-it-works" className="text-sm text-neutral-400">How it Works</a>
           <a href="#use-cases" className="text-sm text-neutral-400">Use Cases</a>
-          <Button variant="primary" className="w-full">Start Building</Button>
+          <Button variant="primary" className="w-full">Request Access</Button>
         </div>
       )}
     </nav>
