@@ -4,7 +4,7 @@ import { Mic, Phone, MessageSquare, GitMerge, Radio, Layers, ArrowRight, Smartph
 export const Roadmap: React.FC = () => {
   const steps = [
     {
-      quarter: "Q4 2025",
+      quarter: "Q3 2026",
       status: "Pilot testing phase",
       statusStyle: "text-green-400 bg-green-500/10 border-green-500/20 shadow-[0_0_15px_rgba(34,197,94,0.2)]",
       title: "Advanced Chat Agents",
@@ -14,7 +14,7 @@ export const Roadmap: React.FC = () => {
       glow: "shadow-[0_0_50px_rgba(34,197,94,0.15)]"
     },
     {
-      quarter: "Q1 2026",
+      quarter: "Q4 2026",
       status: "In Development",
       statusStyle: "text-blue-400 bg-blue-500/10 border-blue-500/20",
       title: "Native Voice Intelligence",
@@ -24,7 +24,7 @@ export const Roadmap: React.FC = () => {
       glow: ""
     },
     {
-      quarter: "Q2 2026",
+      quarter: "Q1 2027",
       status: "Planned",
       statusStyle: "text-neutral-400 bg-neutral-800 border-neutral-700",
       title: "Telephony & Omni-Channel",
@@ -34,7 +34,7 @@ export const Roadmap: React.FC = () => {
       glow: ""
     },
     {
-      quarter: "Q3 2026+",
+      quarter: "Q2 2027+",
       status: "Vision",
       statusStyle: "text-purple-400 bg-purple-500/10 border-purple-500/20",
       title: "Advanced Agent Workflows",

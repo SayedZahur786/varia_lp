@@ -38,7 +38,7 @@ export const Hero: React.FC = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
           </span>
-          <span>Varia 2.0 is now available in public beta</span>
+          <span>Varia is on Closed Pilot</span>
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 gradient-text leading-[1.1] pb-2">
